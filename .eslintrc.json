@@ -31,7 +31,7 @@
     },
     "rules": {
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-        "prettier/prettier": ["error"],
+        "prettier/prettier": ["error", {"endOfLine":"auto"}],
         "arrow-body-style": "off",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
@@ -44,7 +44,8 @@
               "ts": "never",
               "tsx": "never"
             }
-        ]
+        ],
+        "no-console": "off"
         
     }
 }
