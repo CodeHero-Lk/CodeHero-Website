@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is React.Js",
+    "user": 1,
+    "answers": [
+      {
+        "answer": "It's a javascript library",
+        "user": 2
+      }
+    ]
+  },
+  {
+    "question": "What is PHP",
+    "user": 2,
+    "answers": [
+      {
+        "answer": "It's a server side language",
+        "user": 3
+      }
+    ]
+  },
+  {
+    "question": "What is CSS",
+    "user": 3,
+    "answers": [
+      {
+        "answer": "CSS stands for cascade style sheet",
+        "user": 1
+      }
+    ]
+  }
+]
