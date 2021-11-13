@@ -4,11 +4,11 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <>
+    <React.Fragment>
       <Switch>
         <Route path="/" element={<Home />} />
       </Switch>
-    </>
+    </React.Fragment>
   );
 };
 
