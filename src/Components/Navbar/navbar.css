@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav{
+    background-color: #363636;
+    width: 100%;
+    height: 85px;
+    display: inline-block;
+}
+
+.image .logo{
+    width: 110px;
+    margin: 20px 15px 20px 35px;
+}
+
+.menu-items{
+    text-align: center;
+    width: 40%;
+    position:absolute;
+    top:11px;
+    right: 655px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 12px 10px;
+    width: 113px;
+}
+
+nav ul li .link    {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    transition: 0.3s ease all;
+}
+
+nav ul li a:hover   {
+    background: rgba(0, 0, 0, 0.219);
+}
+
+.search{
+    position: absolute;
+    top: 25px;
+    right: 190px;
+}
+
+.search .searchBox{
+    width: 300px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #7A5C98;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.notification{
+    position: absolute;
+    top: 27px;
+    right: 125px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.user{
+    position: absolute;
+    top: 22px;
+    right: 55px;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #8000FF;
+}
+
+.user-logo{
+    position: absolute;
+    right: 11.5px;
+    top: 8.5px;
+}
