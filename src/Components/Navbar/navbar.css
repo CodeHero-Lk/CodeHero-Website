@@ -13,7 +13,7 @@ nav{
 
 .image .logo{
     width: 110px;
-    margin: 20px 45px;
+    margin: 20px 15px 20px 35px;
 }
 
 .menu-items{
@@ -21,7 +21,7 @@ nav{
     width: 40%;
     position:absolute;
     top:11px;
-    right: 640px;
+    right: 655px;
 }
 
 nav ul li{
@@ -36,7 +36,7 @@ nav ul li .link    {
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     transition: 0.3s ease all;
 }
 
@@ -61,6 +61,11 @@ nav ul li a:hover   {
     color: #fff;
     outline: none;
     border: none;
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 1;
 }
 
 .notification{
